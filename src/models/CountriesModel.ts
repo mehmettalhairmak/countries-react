@@ -6,4 +6,5 @@ export interface Country {
 	code: string;
 	name: string;
 	native: string;
+	rowColor?: string;
 }
