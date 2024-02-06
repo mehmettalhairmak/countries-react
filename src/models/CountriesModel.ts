@@ -2,7 +2,8 @@ export interface CountriesModel {
 	countries: Country[];
 }
 
-interface Country {
+export interface Country {
 	code: string;
 	name: string;
+	native: string;
 }
